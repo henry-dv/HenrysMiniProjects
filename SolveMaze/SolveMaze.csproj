@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="HenrysDevLib">
+      <HintPath>..\..\HenrysDevLib\HenrysDevLib\bin\Debug\netstandard2.0\HenrysDevLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

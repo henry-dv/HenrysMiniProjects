@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="HenrysDevLib">
+      <HintPath>..\..\HenrysDevLib\HenrysDevLib\bin\Debug\netstandard2.0\HenrysDevLib.dll</HintPath>
+    </Reference>
+    <Reference Include="HenrysWpfLib">
+      <HintPath>..\..\HenrysDevLib\HenrysWpfLib\bin\Debug\netcoreapp3.1\HenrysWpfLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
